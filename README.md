@@ -1,11 +1,12 @@
 # Bookmarks Shortcode
-Contributors: [bungeshea](http://profiles.wordpress.org/bungeshea)
-Tags: bookmarks, links, blogroll, shortcode, wp_list_bookmarks
-Requires at least: 2.5
-Tested up to: 3.4.2
-Stable tag: 2.0
-License: GPLv3 or later
-Donate link: http://bungeshea.com/donate/
+
+* Contributors: [bungeshea](http://profiles.wordpress.org/bungeshea)
+* Tags: bookmarks, links, blogroll, shortcode, wp_list_bookmarks
+* Requires at least: 2.5
+* Tested up to: 3.4.2
+* Stable tag: 2.0
+* License: GPLv3 or later
+* Donate link: http://bungeshea.com/donate/
 
 Creates shortcodes that will generate an unordered list of your WordPress links (bookmarks).
 
