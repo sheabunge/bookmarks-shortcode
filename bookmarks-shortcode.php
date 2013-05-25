@@ -4,10 +4,11 @@
  * Plugin Name: Bookmarks Shortcode
  * Plugin URI: http://bungeshea.com/plugins/bookmarks-shortcode/
  * Description: Creates [bookmarks], [links] and [blogroll] shortcodes that will generate an unordered list of your WordPress links. Preforms the same function as wp_list_bookmarks().
- * Version: 2.0
  * Author: Shea Bunge
  * Author URI: http://bungeshea.com
- * License: GPLv3 or later
+ * License: MIT
+ * License URI: http://opensource.org/licenses/mit
+ * Version: 2.0
  */
 
 if ( ! function_exists( 'shortcode_exists' ) ) :

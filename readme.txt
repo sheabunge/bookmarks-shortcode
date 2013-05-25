@@ -4,7 +4,8 @@ Tags: bookmarks, links, blogroll, shortcode, wp_list_bookmarks
 Requires at least: 2.5
 Tested up to: 3.5.1
 Stable tag: 2.0
-License: GPLv3 or later
+License: MIT
+License URI: http://opensource.org/licenses/mit
 Donate link: http://bungeshea.com/donate/
 
 Creates shortcodes that will generate an unordered list of your WordPress links (bookmarks).
