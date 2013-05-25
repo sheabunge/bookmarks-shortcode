@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<project version="2.0.0a12" title="">
+  <file path="bookmarks-shortcode.php" hash="42f14121a47356e217aced890aaebf36" package="Bookmarks Shortcode">
+    <docblock line="14">
+      <description>Creates shortcodes that will generate an unordered list of your WordPress links (bookmarks).</description>
+      <long-description></long-description>
+      <tag line="14" name="package" description="Bookmarks Shortcode"/>
+      <tag line="14" name="version" description="2.1"/>
+      <tag line="14" name="author" description="Shea Bunge &lt;info@bungeshea.com&gt;"/>
+      <tag line="14" name="copyright" description="Copyright (c) 2011 - 2013, Shea Bunge"/>
+      <tag line="14" name="link" description="http://bungeshea.com/plugins/bookmarks-shortcode" link="http://bungeshea.com/plugins/bookmarks-shortcode"/>
+      <tag line="14" name="license" description="http://opensource.org/licenses/MIT"/>
+    </docblock>
+    <function namespace="global" line="35" package="Bookmarks Shortcode">
+      <name>bookmarks_shortcode</name>
+      <full_name>\bookmarks_shortcode</full_name>
+      <docblock line="25">
+        <description>Returns a formatted list of WordPress bookmarks.</description>
+        <long-description>&lt;p&gt;These are the ones that you manage through the
+'Links' admin menu.&lt;/p&gt;</long-description>
+        <tag line="25" name="since" description="1.0"/>
+        <tag line="25" name="uses" description="To print a formatted list of bookmarks" refers="\global\wp_list_bookmarks()"/>
+        <tag line="25" name="param" description="Attributes to be passed to the wp_list_bookmarks() function" type="array" variable="$atts">
+          <type by_reference="false">array</type>
+        </tag>
+        <tag line="25" name="return" description="The formatted list of bookmarks" type="string">
+          <type by_reference="false">string</type>
+        </tag>
+      </docblock>
+      <argument line="35">
+        <name>$atts</name>
+        <default></default>
+        <type/>
+      </argument>
+    </function>
+    <function namespace="global" line="51" package="Bookmarks Shortcode">
+      <name>register_bookmarks_shortcode</name>
+      <full_name>\register_bookmarks_shortcode</full_name>
+      <docblock line="43">
+        <description>Register the shortcodes if they don't already exist</description>
+        <long-description></long-description>
+        <tag line="43" name="since" description="2.1"/>
+        <tag line="43" name="uses" description="To check if a shortcode has been already registered" refers="\global\$shortcode_tags"/>
+        <tag line="43" name="uses" description="To register the shortcode with WordPress" refers="\global\add_shortcode()"/>
+        <tag line="43" name="uses" description="Hooked to the 'init' action" refers="\global\add_action()"/>
+      </docblock>
+    </function>
+  </file>
+  <package name="Bookmarks Shortcode" full_name="Bookmarks Shortcode"/>
+  <namespace name="global" full_name="global"/>
+  <marker count="0">todo</marker>
+  <marker count="0">fixme</marker>
+  <deprecated count="0"/>
+</project>
