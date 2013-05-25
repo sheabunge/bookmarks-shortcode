@@ -62,7 +62,3 @@ function register_bookmarks_shortcode() {
 }
 add_action( 'init', 'register_bookmarks_shortcode' );
 
-/* Allow shortcodes to be used in sidebar text widgets */
-
-add_filter( 'widget_text', 'shortcode_unautop' );
-add_filter( 'widget_text', 'do_shortcode' );

@@ -5,7 +5,7 @@ Requires at least: 2.5
 Tested up to: 3.5.1
 Stable tag: 2.0
 License: MIT
-License URI: http://opensource.org/licenses/mit
+License URI: http://opensource.org/licenses/
 Donate link: http://bungeshea.com/donate/
 
 Creates shortcodes that will generate an unordered list of your WordPress links (bookmarks).
@@ -35,7 +35,12 @@ Example: `[bookmarks show_images=0 show_ratings=1 show_name=1 ]`
 This plugin is more flexible then the Links page template. You can use any of the three shortcodes within a post, page, text widget, media, etc. You can also add other content surrounding the list, also when you change themes there is no need to edit the page.
 
 = Can I use the shortcodes in text widgets? =
-Yes. Since version 2.0 you can use all shortcodes in text widgets.
+If you wish to use these shortcodes in the sidebar text widgets, add this code to a site-specific plugin or as a [code snippet](https://github.com/bungeshea/code-snippets):
+
+    add_filter( 'widget_text', 'shortcode_unautop' );
+    add_filter( 'widget_text', 'do_shortcode' );
+
+Keep in mind that doing this will allow you to use **all** shortcodes in text widgets, not only the ones added by this plugin
 
 == Changelog ==
 
