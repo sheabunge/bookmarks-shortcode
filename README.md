@@ -2,7 +2,7 @@
 
 * __Requires at least:__ [WordPress 2.5](http://wordpress.org/download) or later
 * __Tested up to:__ WordPress 3.5.1
-* __Stable version:__ [2.0](http://downloads.wordpress.org/plugin/bookmarks-shortcode.latest-stable.zip)
+* __Stable version:__ [2.1](http://downloads.wordpress.org/plugin/bookmarks-shortcode.latest-stable.zip)
 * __License:__ [MIT](http://opensource.org/licenses/mit)
 
 Creates shortcodes that will generate an unordered list of your WordPress links (bookmarks).
@@ -40,6 +40,12 @@ If you wish to use these shortcodes in the sidebar text widgets, add this code t
 Keep in mind that doing this will allow you to use **all** shortcodes in text widgets, not only the ones added by this plugin
 
 ## Changelog
+
+### 2.1
+* Improved code structure
+* Removed 'allow shortcodes in text widgets' functionality. To add this back, see the FAQ
+* Switched to MIT license
+* Added full support for PHP Doc
 
 ### 2.0
 * Added `[blogroll]` and `[links]` shortcodes

@@ -8,12 +8,13 @@
  * Author URI: http://bungeshea.com
  * License: MIT
  * License URI: http://opensource.org/licenses/mit
- * Version: 2.0
+ * Version: 2.1
  */
 
 /**
- * @package   Bookmarks Shortcode
- * @version   2.0
+ * Creates shortcodes that will generate an unordered list of your WordPress links (bookmarks).
+ *
+ * @version   2.1
  * @author    Shea Bunge <info@bungeshea.com>
  * @copyright Copyright (c) 2011 - 2013, Shea Bunge
  * @link      http://bungeshea.com/plugins/bookmarks-shortcode
@@ -41,7 +42,10 @@ function bookmarks_shortcode( $atts ) {
 /**
  * Register the shortcodes if they don't already exist
  *
- * @uses $shortcode_tags To check if a shortcode has been already registered
+ * @since 2.1
+ * @uses  $shortcode_tags To check if a shortcode has been already registered
+ * @uses  add_shortcode() To register the shortcode with WordPress
+ * @uses  add_action() Hooked to the 'init' action
  */
 function register_bookmarks_shortcode() {
 	global $shortcode_tags;
