@@ -2,7 +2,7 @@
 Contributors: bungeshea
 Tags: bookmarks, links, blogroll, shortcode, wp_list_bookmarks
 Requires at least: 2.5
-Tested up to: 3.4.2
+Tested up to: 3.5.1
 Stable tag: 2.0
 License: GPLv3 or later
 Donate link: http://bungeshea.com/donate/
@@ -28,7 +28,7 @@ Example: `[bookmarks show_images=0 show_ratings=1 show_name=1 ]`
 1. Activate the plugin through the __(Plugins > Installed Plugins)__ menu in WordPress
 1. Use the [bookmarks], [links] or [blogroll] shortcodes in any of your posts, pages or widgets.
 
-== Frequently Asked Questions == 
+== Frequently Asked Questions ==
 
 = My theme includes a links page template. Why do I need this plugin? =
 This plugin is more flexible then the Links page template. You can use any of the three shortcodes within a post, page, text widget, media, etc. You can also add other content surrounding the list, also when you change themes there is no need to edit the page.
