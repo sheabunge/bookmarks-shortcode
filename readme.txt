@@ -2,7 +2,7 @@
 Contributors: bungeshea
 Tags: bookmarks, links, blogroll, shortcode, wp_list_bookmarks
 Requires at least: 2.5
-Tested up to: 3.5.1
+Tested up to: 3.5.2
 Stable tag: 2.1
 License: MIT
 License URI: http://opensource.org/licenses/

@@ -7,7 +7,7 @@
  * Author: Shea Bunge
  * Author URI: http://bungeshea.com
  * License: MIT
- * License URI: http://opensource.org/licenses/mit
+ * License URI: http://opensource.org/licenses/MIT
  * Version: 2.1
  */
 
@@ -58,11 +58,13 @@ function register_bookmarks_shortcode() {
 
 	foreach ( $shortcodes as $shortcode ) {
 
+		/* Check if the shortcode is already registered */
 		if ( ! array_key_exists( $shortcode, $shortcode_tags ) ) {
+
 			add_shortcode( $shortcode, 'bookmarks_shortcode' );
 		}
 	}
 
 }
-add_action( 'init', 'register_bookmarks_shortcode' );
 
+add_action( 'init', 'register_bookmarks_shortcode' );
