@@ -46,6 +46,7 @@ Keep in mind that doing this will allow you to use **all** shortcodes in text wi
 
 = 2.2 =
 * Instead of using output buffering, set wp_list_bookmarks's echo parameter
+* Provide default arguments for the wp_list_bookmarks() function
 
 = 2.1 =
 * Improved code structure
@@ -61,3 +62,8 @@ Keep in mind that doing this will allow you to use **all** shortcodes in text wi
 
 = 1.0 =
 * Stable version release
+
+== Update Notice ==
+
+= 2.2 =
+Improved default bookmarks markup
