@@ -41,6 +41,9 @@ Keep in mind that doing this will allow you to use **all** shortcodes in text wi
 
 ## Changelog
 
+### 2.2
+* Instead of using output buffering, set wp_list_bookmarks's echo parameter
+
 ### 2.1
 * Improved code structure
 * Removed 'allow shortcodes in text widgets' functionality. To add this back, see the FAQ
