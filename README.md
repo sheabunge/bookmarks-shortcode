@@ -2,7 +2,7 @@
 
 * __Requires at least:__ [WordPress 2.5](http://wordpress.org/download) or later
 * __Tested up to:__ WordPress 3.9.1
-* __Stable version:__ [2.1](http://downloads.wordpress.org/plugin/bookmarks-shortcode.latest-stable.zip)
+* __Stable version:__ [2.2](http://downloads.wordpress.org/plugin/bookmarks-shortcode.latest-stable.zip)
 * __License:__ [MIT](http://opensource.org/licenses/mit)
 
 Creates shortcodes that will generate an unordered list of your WordPress links (bookmarks).
