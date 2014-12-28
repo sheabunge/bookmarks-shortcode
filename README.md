@@ -1,7 +1,7 @@
 # Bookmarks Shortcode
 
 * __Requires at least:__ [WordPress 2.5](http://wordpress.org/download) or later
-* __Tested up to:__ WordPress 4.0
+* __Tested up to:__ WordPress 4.1
 * __Stable version:__ [2.2](http://downloads.wordpress.org/plugin/bookmarks-shortcode.latest-stable.zip)
 * __License:__ [MIT](http://opensource.org/licenses/mit)
 
