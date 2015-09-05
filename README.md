@@ -1,8 +1,8 @@
 # Bookmarks Shortcode
 
 * __Requires at least:__ [WordPress 2.5](http://wordpress.org/download) or later
-* __Tested up to:__ WordPress 4.1
-* __Stable version:__ [2.2](http://downloads.wordpress.org/plugin/bookmarks-shortcode.latest-stable.zip)
+* __Tested up to:__ WordPress 4.3
+* __Stable version:__ [2.3](http://downloads.wordpress.org/plugin/bookmarks-shortcode.latest-stable.zip)
 * __License:__ [MIT](http://opensource.org/licenses/mit)
 
 Creates shortcodes that will generate an unordered list of your WordPress links (bookmarks).
@@ -17,8 +17,6 @@ This makes it much more flexible then using the default Links page template that
 
 You can customize the output of the list by using the same arguments that are accepted by the [wp_list_bookmarks()](http://codex.wordpress.org/Function_Reference/wp_list_bookmarks) function.
 Example: `[bookmarks show_images=0 show_ratings=1 show_name=1 ]`
-
-[Visit the plugin's website](http://bungeshea.com/plugins/bookmarks-shortcode/).
 
 ## Installation
 
@@ -40,6 +38,9 @@ If you wish to use these shortcodes in the sidebar text widgets, add this code t
 Keep in mind that doing this will allow you to use **all** shortcodes in text widgets, not only the ones added by this plugin
 
 ## Changelog
+
+### 2.3
+* Remove argument parsing from shortcode callback
 
 ### 2.2
 * Instead of using output buffering, set wp_list_bookmarks's echo parameter

@@ -2,8 +2,8 @@
 Contributors: bungeshea
 Tags: bookmarks, links, blogroll, shortcode, wp_list_bookmarks
 Requires at least: 2.5
-Tested up to: 4.1
-Stable tag: 2.2
+Tested up to: 4.3
+Stable tag: 2.3
 License: MIT
 License URI: http://opensource.org/licenses/
 Donate link: http://bungeshea.com/donate/
@@ -21,7 +21,7 @@ This makes it much more flexible then using the default Links page template that
 You can customize the output of the list by using the same arguments that are accepted by the [wp_list_bookmarks()](http://codex.wordpress.org/Function_Reference/wp_list_bookmarks) function.
 Example: `[bookmarks show_images=0 show_ratings=1 show_name=1 ]`
 
-[Visit the plugin's website](http://bungeshea.com/plugins/bookmarks-shortcode/).
+[Contribute at GitHub](https://github.com/sheabunge/bookmarks-shortcode)
 
 == Installation ==
 
@@ -43,6 +43,9 @@ If you wish to use these shortcodes in the sidebar text widgets, add this code t
 Keep in mind that doing this will allow you to use **all** shortcodes in text widgets, not only the ones added by this plugin
 
 == Changelog ==
+
+= 2.3 =
+* Remove argument parsing from shortcode callback
 
 = 2.2 =
 * Instead of using output buffering, set wp_list_bookmarks's echo parameter
