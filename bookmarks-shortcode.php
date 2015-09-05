@@ -27,7 +27,8 @@
  * 'Links' admin menu.
  *
  * @since 1.0
- * @uses wp_list_bookmarks() To print a formatted list of bookmarks
+ *
+ * @uses wp_list_bookmarks() to print a formatted list of bookmarks
  *
  * @param array $atts Attributes to be passed to the wp_list_bookmarks() function
  *
@@ -42,11 +43,13 @@ function bookmarks_shortcode( $atts = array() ) {
  * Register the shortcodes if they don't already exist
  *
  * @since 2.1
- * @uses  $shortcode_tags To check if a shortcode has been already registered
- * @uses  add_shortcode() To register the shortcode with WordPress
- * @uses  add_action() Hooked to the 'init' action
+ *
+ * @uses $shortcode_tags to check if a shortcode has been already registered
+ * @uses add_shortcode() to register the shortcode with WordPress
+ * @uses add_action() Hooked to the 'init' action
  */
 function register_bookmarks_shortcode() {
+	/** @var array $shortcode_tags */
 	global $shortcode_tags;
 
 	$shortcodes = array(
