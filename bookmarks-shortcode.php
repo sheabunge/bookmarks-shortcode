@@ -23,8 +23,7 @@
 
 /**
  * Returns a formatted list of WordPress bookmarks.
- * These are the ones that you manage through the
- * 'Links' admin menu.
+ * These are the ones that are managed through the 'Links' admin menu.
  *
  * @since 1.0
  *
@@ -52,16 +51,12 @@ function register_bookmarks_shortcode() {
 	/** @var array $shortcode_tags */
 	global $shortcode_tags;
 
-	$shortcodes = array(
-		'bookmarks',
-		'blogroll',
-		'links',
-	);
+	$shortcodes = array( 'bookmarks', 'blogroll', 'links' );
 
 	foreach ( $shortcodes as $shortcode ) {
 
 		/* Check if the shortcode is already registered */
-		if ( ! array_key_exists( $shortcode, $shortcode_tags ) ) {
+		if ( ! isset( $shortcode_tags[ $shortcode ] ) ) {
 
 			add_shortcode( $shortcode, 'bookmarks_shortcode' );
 		}
