@@ -26,28 +26,16 @@
  * These are the ones that you manage through the
  * 'Links' admin menu.
  *
- * @since  1.0
- * @uses   wp_list_bookmarks() To print a formatted list of bookmarks
- * @param  array $atts Attributes to be passed to the wp_list_bookmarks() function
+ * @since 1.0
+ * @uses wp_list_bookmarks() To print a formatted list of bookmarks
+ *
+ * @param array $atts Attributes to be passed to the wp_list_bookmarks() function
+ *
  * @return string The formatted list of bookmarks
  */
 function bookmarks_shortcode( $atts = array() ) {
-	$defaults = array(
-		'title_li'         => false,
-		'title_before'     => '<h2>',
-		'title_after'      => '</h2>',
-		'category_before'  => false,
-		'category_after'   => false,
-		'categorize'       => true,
-		'show_description' => true,
-		'between'          => '<br />',
-		'show_images'      => false,
-		'show_rating'      => false,
-		'echo'             => false,
-	);
-
-	$args = wp_parse_args( $atts, $defaults );
-	return wp_list_bookmarks( $args );
+	$atts['echo'] = false;
+	return wp_list_bookmarks( $atts );
 }
 
 /**
