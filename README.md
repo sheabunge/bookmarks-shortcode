@@ -1,9 +1,9 @@
 # Bookmarks Shortcode
 
 * __Requires at least:__ [WordPress 2.5](http://wordpress.org/download) or later
-* __Tested up to:__ WordPress 4.3
-* __Stable version:__ [2.3](http://downloads.wordpress.org/plugin/bookmarks-shortcode.latest-stable.zip)
-* __License:__ [MIT](http://opensource.org/licenses/mit)
+* __Tested up to:__ WordPress 4.9.2
+* __Stable version:__ [2.3](https://downloads.wordpress.org/plugin/bookmarks-shortcode.latest-stable.zip)
+* __License:__ [MIT](https://opensource.org/licenses/mit)
 
 Creates shortcodes that will generate an unordered list of your WordPress links (bookmarks).
 
@@ -30,7 +30,7 @@ Example: `[bookmarks show_images=0 show_ratings=1 show_name=1 ]`
 This plugin is more flexible then the Links page template. You can use any of the three shortcodes within a post, page, text widget, media, etc. You can also add other content surrounding the list, also when you change themes there is no need to edit the page.
 
 ### Can I use the shortcodes in text widgets?
-If you wish to use these shortcodes in the sidebar text widgets, add this code to a site-specific plugin or as a [code snippet](http://wordpress.org/plugins/code-snippets):
+If you wish to use these shortcodes in the sidebar text widgets, add this code to a site-specific plugin or as a [code snippet](https://wordpress.org/plugins/code-snippets):
 
     add_filter( 'widget_text', 'shortcode_unautop' );
     add_filter( 'widget_text', 'do_shortcode' );

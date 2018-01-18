@@ -2,11 +2,11 @@
 Contributors: bungeshea
 Tags: bookmarks, links, blogroll, shortcode, wp_list_bookmarks
 Requires at least: 2.5
-Tested up to: 4.3
+Tested up to: 4.9.2
 Stable tag: 2.3
 License: MIT
-License URI: http://opensource.org/licenses/
-Donate link: http://bungeshea.com/donate/
+License URI: https://opensource.org/licenses/MIT
+Donate link: https://bungeshea.com/donate/
 
 Creates shortcodes that will generate an unordered list of your WordPress links (bookmarks).
 
@@ -18,7 +18,7 @@ Preforms the same function as `wp_list_bookmarks()`.
 You can any of the shortcodes within a post, page, media, text widget, etc.
 This makes it much more flexible then using the default Links page template that may be included in your theme as you can add other content surrounding the list, also when you change themes there is no need to edit the page.
 
-You can customize the output of the list by using the same arguments that are accepted by the [wp_list_bookmarks()](http://codex.wordpress.org/Function_Reference/wp_list_bookmarks) function.
+You can customize the output of the list by using the same arguments that are accepted by the [wp_list_bookmarks()](https://codex.wordpress.org/Function_Reference/wp_list_bookmarks) function.
 Example: `[bookmarks show_images=0 show_ratings=1 show_name=1 ]`
 
 [Contribute at GitHub](https://github.com/sheabunge/bookmarks-shortcode)
@@ -61,7 +61,7 @@ Keep in mind that doing this will allow you to use **all** shortcodes in text wi
 * Fixed a bug with the page content always being after the bookmarks
 * Shortcodes can now be used in text widgets
 * Checks if shortcode exists before registering shortcode
-* Accepts the same arguments as the [wp_list_bookmarks()](http://codex.wordpress.org/Function_Reference/wp_list_bookmarks) function.
+* Accepts the same arguments as the [wp_list_bookmarks()](https://codex.wordpress.org/Function_Reference/wp_list_bookmarks) function.
 
 = 1.0 =
 * Stable version release
