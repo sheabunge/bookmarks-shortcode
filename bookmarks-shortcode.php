@@ -8,13 +8,13 @@
  * Author URI:  http://bungeshea.com
  * License:     MIT
  * License URI: http://opensource.org/licenses/MIT
- * Version:     2.3
+ * Version:     2.3.1
  */
 
 /**
  * Creates shortcodes that will generate an unordered list of your WordPress links (bookmarks).
  *
- * @version   2.3
+ * @version   2.3.1
  * @author    Shea Bunge <info@bungeshea.com>
  * @copyright Copyright (c) 2011 - 2018, Shea Bunge
  * @link      https://github.com/sheabunge/bookmarks-shortcode
@@ -34,7 +34,13 @@
  * @return string The formatted list of bookmarks
  */
 function bookmarks_shortcode( $atts = array() ) {
-	$atts['echo'] = false;
+	if ( empty( $atts ) ) {
+		$atts = array( 'echo' => false );
+	} elseif ( is_array( $atts ) ) {
+		$atts['echo'] = false;
+	} elseif ( is_string( $atts ) ) {
+		$atts = 'echo=false&' . $atts;
+	}
 	return wp_list_bookmarks( $atts );
 }
 

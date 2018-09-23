@@ -45,6 +45,9 @@ Keep in mind that doing this will allow you to use **all** shortcodes in text wi
 
 == Changelog ==
 
+= 2.3.1 =
+* Fixed regression if strings are passed as shortcode attributes
+
 = 2.3 =
 * Remove argument parsing from shortcode callback
 
