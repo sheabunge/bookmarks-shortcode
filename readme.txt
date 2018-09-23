@@ -3,6 +3,7 @@ Contributors: bungeshea
 Tags: bookmarks, links, blogroll, shortcode, wp_list_bookmarks
 Requires at least: 2.5
 Tested up to: 4.9.2
+Requires PHP: 5.2
 Stable tag: 2.3
 License: MIT
 License URI: https://opensource.org/licenses/MIT
@@ -12,7 +13,7 @@ Creates shortcodes that will generate an unordered list of your WordPress links 
 
 == Description ==
 
-Creates three shortcodes ([bookmarks], [links] and [blogroll]) that will generate an unordered list of your WordPress links.
+Creates three shortcodes – [bookmarks], [links] and [blogroll] – that will generate an unordered list of your WordPress links.
 Preforms the same function as `wp_list_bookmarks()`.
 
 You can any of the shortcodes within a post, page, media, text widget, etc.
