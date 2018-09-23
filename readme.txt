@@ -4,7 +4,7 @@ Tags: bookmarks, links, blogroll, shortcode, wp_list_bookmarks
 Requires at least: 2.5
 Tested up to: 4.9.2
 Requires PHP: 5.2
-Stable tag: 2.3
+Stable tag: 2.3.1
 License: MIT
 License URI: https://opensource.org/licenses/MIT
 Donate link: https://bungeshea.com/donate/
