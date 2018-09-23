@@ -3,7 +3,7 @@ Contributors: bungeshea
 Tags: bookmarks, links, blogroll, shortcode, wp_list_bookmarks
 Requires at least: 2.5
 Tested up to: 4.9.2
-Stable tag: 2.3
+Stable tag: 2.3.1
 License: MIT
 License URI: https://opensource.org/licenses/MIT
 Donate link: https://bungeshea.com/donate/
@@ -43,6 +43,9 @@ If you wish to use these shortcodes in the sidebar text widgets, add this code t
 Keep in mind that doing this will allow you to use **all** shortcodes in text widgets, not only the ones added by this plugin
 
 == Changelog ==
+
+= 2.3.1 =
+* Fixed regression if strings are passed as shortcode attributes
 
 = 2.3 =
 * Remove argument parsing from shortcode callback
