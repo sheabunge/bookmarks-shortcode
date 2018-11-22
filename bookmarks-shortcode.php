@@ -34,13 +34,10 @@
  * @return string The formatted list of bookmarks
  */
 function bookmarks_shortcode( $atts = array() ) {
-	if ( empty( $atts ) ) {
-		$atts = array( 'echo' => false );
-	} elseif ( is_array( $atts ) ) {
-		$atts['echo'] = false;
-	} elseif ( is_string( $atts ) ) {
-		$atts = 'echo=false&' . $atts;
-	}
+
+	$atts = wp_parse_args( $atts );
+	$atts['echo'] = false;
+
 	return wp_list_bookmarks( $atts );
 }
 
