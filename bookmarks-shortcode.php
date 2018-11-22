@@ -5,7 +5,7 @@
  * Plugin URI:  https://github.com/sheabunge/bookmarks-shortcode
  * Description: Creates [bookmarks], [links] and [blogroll] shortcodes that will generate an unordered list of your WordPress links. Preforms the same function as wp_list_bookmarks().
  * Author:      Shea Bunge
- * Author URI:  http://bungeshea.com
+ * Author URI:  https://sheabunge.com
  * License:     MIT
  * License URI: http://opensource.org/licenses/MIT
  * Version:     2.3.1
@@ -15,7 +15,7 @@
  * Creates shortcodes that will generate an unordered list of your WordPress links (bookmarks).
  *
  * @version   2.3.1
- * @author    Shea Bunge <info@bungeshea.com>
+ * @author    Shea Bunge
  * @copyright Copyright (c) 2011 - 2018, Shea Bunge
  * @link      https://github.com/sheabunge/bookmarks-shortcode
  * @license   http://opensource.org/licenses/MIT
@@ -60,7 +60,6 @@ function register_bookmarks_shortcode() {
 
 		/* Check if the shortcode is already registered */
 		if ( ! isset( $shortcode_tags[ $shortcode ] ) ) {
-
 			add_shortcode( $shortcode, 'bookmarks_shortcode' );
 		}
 	}
