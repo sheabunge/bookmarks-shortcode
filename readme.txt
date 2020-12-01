@@ -2,7 +2,7 @@
 Contributors: bungeshea
 Tags: bookmarks, links, blogroll, shortcode, wp_list_bookmarks
 Requires at least: 2.5
-Tested up to: 5.0
+Tested up to: 5.6
 Requires PHP: 5.2
 Stable tag: 2.3.1
 License: MIT
