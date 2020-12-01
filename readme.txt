@@ -19,7 +19,7 @@ Preforms the same function as `wp_list_bookmarks()`.
 You can any of the shortcodes within a post, page, media, text widget, etc.
 This makes it much more flexible then using the default Links page template that may be included in your theme as you can add other content surrounding the list, also when you change themes there is no need to edit the page.
 
-You can customize the output of the list by using the same arguments that are accepted by the [wp_list_bookmarks()](https://codex.wordpress.org/Function_Reference/wp_list_bookmarks) function.
+You can customize the output of the list by using the same arguments that are accepted by the [wp_list_bookmarks()](https://developer.wordpress.org/reference/functions/wp_list_bookmarks/) function.
 Example: `[bookmarks show_images=0 show_ratings=1 show_name=1 ]`
 
 [Contribute at GitHub](https://github.com/sheabunge/bookmarks-shortcode)

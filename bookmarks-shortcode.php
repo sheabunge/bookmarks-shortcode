@@ -7,7 +7,7 @@
  * Author:      Shea Bunge
  * Author URI:  https://sheabunge.com
  * License:     MIT
- * License URI: http://opensource.org/licenses/MIT
+ * License URI: https://opensource.org/licenses/MIT
  * Version:     2.3.1
  */
 
@@ -16,22 +16,21 @@
  *
  * @version   2.3.1
  * @author    Shea Bunge
- * @copyright Copyright (c) 2011 - 2018, Shea Bunge
+ * @copyright Copyright (c) 2011 - 2020, Shea Bunge
  * @link      https://github.com/sheabunge/bookmarks-shortcode
- * @license   http://opensource.org/licenses/MIT
+ * @license   https://opensource.org/licenses/MIT
  */
 
 /**
  * Returns a formatted list of WordPress bookmarks.
  * These are the ones that are managed through the 'Links' admin menu.
  *
- * @since 1.0
- *
- * @uses wp_list_bookmarks() to print a formatted list of bookmarks
- *
  * @param array $atts Attributes to be passed to the wp_list_bookmarks() function
  *
  * @return string The formatted list of bookmarks
+ * @since 1.0
+ *
+ * @uses  wp_list_bookmarks() to print a formatted list of bookmarks
  */
 function bookmarks_shortcode( $atts = array() ) {
 
@@ -46,9 +45,9 @@ function bookmarks_shortcode( $atts = array() ) {
  *
  * @since 2.1
  *
- * @uses $shortcode_tags to check if a shortcode has been already registered
- * @uses add_shortcode() to register the shortcode with WordPress
- * @uses add_action() Hooked to the 'init' action
+ * @uses  $shortcode_tags to check if a shortcode has been already registered
+ * @uses  add_shortcode() to register the shortcode with WordPress
+ * @uses  add_action() Hooked to the 'init' action
  */
 function register_bookmarks_shortcode() {
 	/** @var array $shortcode_tags */
